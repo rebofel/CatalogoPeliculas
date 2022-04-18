@@ -1,4 +1,4 @@
-package domain;
+package mx.com.gm.peliculas.domain;
 
 /**
  *
