@@ -15,7 +15,7 @@ public class Pelicula {
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public void setNombre(String nombre) {
@@ -24,7 +24,7 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula{" + "nombre=" + nombre + '}';
+        return this.nombre; //Para que solo ingrese el nombre de la pelicula 
     }
     
     
